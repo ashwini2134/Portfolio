@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashwini Ravirala | Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Background Glow Effects -->
+  <div class="bg-blobs">
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+    <div class="blob blob3"></div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Ashwini<span>.</span></div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <a href="#contact" class="btn-primary">Hire Me</a>
+
+    <!-- Hamburger -->
+    <div class="menu-icon" onclick="toggleMenu()">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Hi, I'm <span>Ashwini Ravirala</span></h1>
+
+      <!-- Typing Animation -->
+      <h2><span id="typing"></span></h2>
+
+      <p>
+        I build modern web applications and AI-powered systems with clean UI/UX,
+        scalable backend, and real-world project impact.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn-primary">
+          <i class="fa-solid fa-laptop-code"></i> View Projects
+        </a>
+
+        <a href="Ashwini_RaviralaCV.pdf" download class="btn-secondary">
+          <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+        </a>
+      </div>
+
+      <div class="social-links">
+        <a href="https://linkedin.com/in/ashwini-ravirala-133058377" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a href="https://github.com/ashwini2134" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Profile Card -->
+    <div class="hero-card">
+      <div class="profile-card">
+        <img src="profile.jpeg" alt="Ashwini Ravirala" class="profile-img">
+        <h3>Ashwini Ravirala</h3>
+        <p>Hyderabad, Telangana</p>
+
+        <div class="mini-stats">
+          <div class="stat">
+            <h4>15+</h4>
+            <span>Achievements</span>
+          </div>
+          <div class="stat">
+            <h4>AI</h4>
+            <span>Domain</span>
+          </div>
+          <div class="stat">
+            <h4>2028</h4>
+            <span>Graduate</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-subtitle">
+      Passionate about Data Science, AI, Full Stack Development and Automation.
+    </p>
+
+    <div class="about-container">
+      <div class="about-box">
+        <h3>Who I Am</h3>
+        <p>
+          I'm Ashwini Ravirala, a Data Science student with strong interest in AI-powered applications,
+          full stack development, and real-world problem solving projects.
+        </p>
+      </div>
+
+      <div class="about-box">
+        <h3>My Goal</h3>
+        <p>
+          My goal is to become a skilled Data Scientist / Developer and work in a top tech company,
+          building impactful products with strong UI/UX and scalable backend systems.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section" id="skills">
+    <h2 class="section-title">Skills</h2>
+    <p class="section-subtitle">Technologies I work with</p>
+
+    <div class="skills-grid">
+      <div class="skill-card"><i class="fa-brands fa-python"></i><h3>Python</h3></div>
+      <div class="skill-card"><i class="fa-brands fa-java"></i><h3>Java</h3></div>
+      <div class="skill-card"><i class="fa-solid fa-code"></i><h3>C++</h3></div>
+      <div class="skill-card"><i class="fa-brands fa-html5"></i><h3>HTML</h3></div>
+      <div class="skill-card"><i class="fa-brands fa-css3-alt"></i><h3>CSS</h3></div>
+      <div class="skill-card"><i class="fa-brands fa-js"></i><h3>JavaScript</h3></div>
+      <div class="skill-card"><i class="fa-solid fa-database"></i><h3>MySQL / SQL</h3></div>
+      <div class="skill-card"><i class="fa-solid fa-brain"></i><h3>Machine Learning</h3></div>
+      <div class="skill-card"><i class="fa-solid fa-robot"></i><h3>Automation</h3></div>
+      <div class="skill-card"><i class="fa-brands fa-github"></i><h3>GitHub</h3></div>
+      <div class="skill-card"><i class="fa-solid fa-laptop-code"></i><h3>VS Code</h3></div>
+      <div class="skill-card"><i class="fa-brands fa-linux"></i><h3>Linux</h3></div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <p class="section-subtitle">Projects mentioned in my resume</p>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-header">
+          <h3>Intelli Credit AI</h3>
+          <span class="badge">Featured</span>
+        </div>
+
+        <p>
+          AI-based corporate loan risk analysis system with document extraction, ML risk scoring
+          and structured risk report generation.
+        </p>
+
+        <div class="project-tags">
+          <span>FastAPI</span>
+          <span>OCR</span>
+          <span>ML</span>
+          <span>PDF</span>
+          <span>Render</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://intelli-credit-ai-2.onrender.com/" target="_blank" class="btn-primary small">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+          </a>
+
+          <a href="https://github.com/ashwini2134" target="_blank" class="btn-secondary small">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <h3>Human Scream Detection System</h3>
+          <span class="badge badge-alt">AI Safety</span>
+        </div>
+
+        <p>
+          Real-time audio classification system to detect human screams using MFCC feature extraction
+          and TensorFlow deep learning model.
+        </p>
+
+        <div class="project-tags">
+          <span>Python</span>
+          <span>Librosa</span>
+          <span>TensorFlow</span>
+          <span>MFCC</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://github.com/ashwini2134" target="_blank" class="btn-secondary small">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <h3>Smart SOS Safety System</h3>
+          <span class="badge badge-alt2">IoT</span>
+        </div>
+
+        <p>
+          Multi-node SOS safety system using LoRa mesh with offline CNN event detection,
+          SOS device, receiver unit and police dashboard monitoring.
+        </p>
+
+        <div class="project-tags">
+          <span>ESP32</span>
+          <span>LoRa</span>
+          <span>CNN</span>
+          <span>IoT</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://github.com/ashwini2134" target="_blank" class="btn-secondary small">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Gallery Slider -->
+  <section class="section" id="gallery">
+    <h2 class="section-title">Gallery</h2>
+    <p class="section-subtitle">Certificates, Workshops, Hackathons & Amazon Tour</p>
+
+    <div class="slider-container">
+      <button class="slide-btn left" onclick="prevSlide()">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+
+      <div class="slider" id="slider">
+
+        <img src="images/cert1.jpeg" class="slide-img" alt="Certificate">
+        <img src="images/cert2.jpeg" class="slide-img" alt="Certificate">
+        <img src="images/cert3.jpeg" class="slide-img" alt="Certificate">
+        <img src="images/cert4.jpeg" class="slide-img" alt="Certificate">
+
+        <img src="images/workshop1.jpeg" class="slide-img" alt="Workshop">
+        <img src="images/workshop2.jpeg" class="slide-img" alt="Workshop">
+
+        <img src="images/hackathon1.jpeg" class="slide-img" alt="Hackathon">
+        <img src="images/hackathon2.jpeg" class="slide-img" alt="Hackathon">
+        <img src="images/hackathon3.jpeg" class="slide-img" alt="Hackathon">
+
+        <img src="images/amazon1.jpeg" class="slide-img" alt="Amazon Tour">
+        <img src="images/amazon2.jpeg" class="slide-img" alt="Amazon Tour">
+        <img src="images/amazon3.jpeg" class="slide-img" alt="Amazon Tour">
+        <img src="images/amazon4.jpeg" class="slide-img" alt="Amazon Tour">
+        <img src="images/amazon5.jpeg" class="slide-img" alt="Amazon Tour">
+        <img src="images/amazon6.jpeg" class="slide-img" alt="Amazon Tour">
+
+      </div>
+
+      <button class="slide-btn right" onclick="nextSlide()">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section" id="education">
+    <h2 class="section-title">Education</h2>
+    <p class="section-subtitle">My academic background</p>
+
+    <div class="edu-grid">
+      <div class="edu-card">
+        <h3>B.Tech in Data Science</h3>
+        <p><i class="fa-solid fa-building-columns"></i> MVSR Engineering College, Hyderabad</p>
+        <p><i class="fa-solid fa-calendar"></i> Expected Graduation: 2028</p>
+      </div>
+
+      <div class="edu-card">
+        <h3>Diploma in Computer Science</h3>
+        <p><i class="fa-solid fa-building-columns"></i> TRR College of Technology</p>
+        <p><i class="fa-solid fa-calendar"></i> 2023 - 2025</p>
+        <p><i class="fa-solid fa-star"></i> GPA: 9.8 / 10</p>
+      </div>
+
+      <div class="edu-card">
+        <h3>Secondary School Certificate (SSC)</h3>
+        <p><i class="fa-solid fa-school"></i> ZP High School, Pochampally, Yadadri</p>
+        <p><i class="fa-solid fa-calendar"></i> 2022 - 2023</p>
+        <p><i class="fa-solid fa-star"></i> 97% (GPA: 9.7 / 10)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <p class="section-subtitle">Let's connect and build something great</p>
+
+    <div class="contact-box">
+      <p><i class="fa-solid fa-envelope"></i> Email: <b>ashwiniravirala1108@gmail.com</b></p>
+      <p><i class="fa-solid fa-phone"></i> Phone: <b>7093860870</b></p>
+      <p><i class="fa-solid fa-location-dot"></i> Hyderabad, Telangana</p>
+
+      <div class="contact-links">
+        <a href="https://linkedin.com/in/ashwini-ravirala-133058377" target="_blank" class="btn-primary">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+
+        <a href="https://github.com/ashwini2134" target="_blank" class="btn-secondary">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 Ashwini Ravirala. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
